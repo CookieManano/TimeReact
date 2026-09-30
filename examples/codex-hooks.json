@@ -1,0 +1,41 @@
+{
+  "description": "TimeReact：对话时间戳与相对日期锚点。只保存时间元数据；需要在 Codex /hooks 中信任。",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/absolute/path/to/TimeReact/.venv/bin/python\" \"/absolute/path/to/TimeReact/scripts/conversation_hook.py\"",
+            "timeout": 5,
+            "additionalContextLimit": 2000
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/absolute/path/to/TimeReact/.venv/bin/python\" \"/absolute/path/to/TimeReact/scripts/conversation_hook.py\"",
+            "timeout": 5,
+            "additionalContextLimit": 2000
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/absolute/path/to/TimeReact/.venv/bin/python\" \"/absolute/path/to/TimeReact/scripts/conversation_hook.py\"",
+            "timeout": 5,
+            "additionalContextLimit": 2000
+          }
+        ]
+      }
+    ]
+  }
+}

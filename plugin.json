@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "timereact",
+  "version": "0.2.0",
+  "description": "为 AI 提供对话时间锚点、相对日期解析、当前时间与任务预算查询。"
+}

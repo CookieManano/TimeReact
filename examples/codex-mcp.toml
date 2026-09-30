@@ -1,0 +1,6 @@
+[mcp_servers.timereact]
+command = "/absolute/path/to/TimeReact/.venv/bin/python"
+args = ["/absolute/path/to/TimeReact/scripts/run_server.py"]
+
+[mcp_servers.timereact.env]
+TIMEREACT_DB = "/absolute/path/to/TimeReact/.timereact/state.sqlite3"
